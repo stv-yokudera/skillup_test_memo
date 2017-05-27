@@ -759,6 +759,7 @@
 			baseConfigurationReference = 9D1D821F7E3F8C83E7240BF0 /* Pods-skillup_test_6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = skillup_test_6/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -774,6 +775,7 @@
 			baseConfigurationReference = 5136E1611D814FFB74FA81E8 /* Pods-skillup_test_6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = skillup_test_6/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
