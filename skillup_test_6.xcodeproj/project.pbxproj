@@ -179,8 +179,8 @@
 		B6C2D5CA1ED908200037A480 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B6C2D6241ED91CD40037A480 /* Startup */,
 				B6C2D5FF1ED913540037A480 /* MemoList */,
+				B6C2D6241ED91CD40037A480 /* Startup */,
 				B6C2D60C1ED9143E0037A480 /* WriteMemo */,
 			);
 			path = Controllers;
@@ -370,7 +370,7 @@
 				B6C2D6201ED91C260037A480 /* MemoListStateTests.swift */,
 				B6C2D6221ED91C420037A480 /* MemoListToolbarTests.swift */,
 			);
-			name = MemoList;
+			path = MemoList;
 			sourceTree = "<group>";
 		};
 		B6C2D6241ED91CD40037A480 /* Startup */ = {
@@ -378,7 +378,7 @@
 			children = (
 				B69C2E851ED90655009560CD /* LaunchScreen.storyboard */,
 			);
-			name = Startup;
+			path = Startup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -653,7 +653,7 @@
 				B69C2E861ED90655009560CD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../.;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
