@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2405786EC39761D0F4E30421 /* Pods_skillup_test_6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CBFF0AAC574ED7235FFD0A /* Pods_skillup_test_6.framework */; };
+		926247C667B000D70B0729A8 /* Pods_skillup_test_6Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9330276624740A6F68384775 /* Pods_skillup_test_6Tests.framework */; };
 		B69C2E7D1ED90655009560CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C2E7C1ED90655009560CD /* AppDelegate.swift */; };
-		B69C2E7F1ED90655009560CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C2E7E1ED90655009560CD /* ViewController.swift */; };
-		B69C2E821ED90655009560CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69C2E801ED90655009560CD /* Main.storyboard */; };
 		B69C2E841ED90655009560CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69C2E831ED90655009560CD /* Assets.xcassets */; };
 		B69C2E871ED90655009560CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69C2E851ED90655009560CD /* LaunchScreen.storyboard */; };
-		B69C2E921ED90655009560CD /* skillup_test_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C2E911ED90655009560CD /* skillup_test_6Tests.swift */; };
+		B6C2D5D31ED908A90037A480 /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5D21ED908A90037A480 /* RealmDaoHelper.swift */; };
+		B6C2D5D51ED908C50037A480 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5D41ED908C50037A480 /* String.swift */; };
+		B6C2D5D71ED909640037A480 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5D61ED909640037A480 /* UITextView.swift */; };
+		B6C2D5DC1ED90A080037A480 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5DB1ED90A080037A480 /* Logger.swift */; };
+		B6C2D5DF1ED90A2F0037A480 /* MemoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5DE1ED90A2F0037A480 /* MemoDto.swift */; };
+		B6C2D5E11ED90AA70037A480 /* MemoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5E01ED90AA70037A480 /* MemoDao.swift */; };
+		B6C2D5E41ED90B810037A480 /* MocRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5E31ED90B810037A480 /* MocRealm.swift */; };
+		B6C2D5EA1ED90C0C0037A480 /* MemoDtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5E91ED90C0C0037A480 /* MemoDtoTests.swift */; };
+		B6C2D5EC1ED90CB60037A480 /* MemoDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5EB1ED90CB60037A480 /* MemoDaoTests.swift */; };
+		B6C2D5F11ED90EBB0037A480 /* RegisterMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5F01ED90EBB0037A480 /* RegisterMemo.swift */; };
+		B6C2D5F41ED90F900037A480 /* RegisterMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5F31ED90F900037A480 /* RegisterMemoTests.swift */; };
+		B6C2D5F61ED9108D0037A480 /* MemoListCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5F51ED9108D0037A480 /* MemoListCellItem.swift */; };
+		B6C2D5F81ED910FC0037A480 /* MemoListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5F71ED910FC0037A480 /* MemoListState.swift */; };
+		B6C2D5FA1ED9118A0037A480 /* MemoListToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5F91ED9118A0037A480 /* MemoListToolbar.swift */; };
+		B6C2D5FC1ED911BA0037A480 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6C2D5FB1ED911BA0037A480 /* Localizable.strings */; };
+		B6C2D5FE1ED913240037A480 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D5FD1ED913240037A480 /* R.generated.swift */; };
+		B6C2D6071ED913A90037A480 /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D6051ED913A90037A480 /* MemoListViewController.swift */; };
+		B6C2D6101ED9146D0037A480 /* WriteMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D60F1ED9146D0037A480 /* WriteMemoViewController.swift */; };
+		B6C2D6121ED9148E0037A480 /* MemoListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C2D6111ED9148E0037A480 /* MemoListViewController.storyboard */; };
+		B6C2D6141ED914950037A480 /* WriteMemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C2D6131ED914950037A480 /* WriteMemoViewController.storyboard */; };
+		B6C2D6171ED917040037A480 /* MemoListTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D6161ED917040037A480 /* MemoListTableViewProvider.swift */; };
+		B6C2D61A1ED918AC0037A480 /* MemoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C2D6191ED918AC0037A480 /* MemoListCell.xib */; };
+		B6C2D61C1ED918BD0037A480 /* MemoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D61B1ED918BD0037A480 /* MemoListCell.swift */; };
+		B6C2D61F1ED91BF50037A480 /* MemoListCellItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D61E1ED91BF50037A480 /* MemoListCellItemTests.swift */; };
+		B6C2D6211ED91C260037A480 /* MemoListStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D6201ED91C260037A480 /* MemoListStateTests.swift */; };
+		B6C2D6231ED91C420037A480 /* MemoListToolbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2D6221ED91C420037A480 /* MemoListToolbarTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +51,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5136E1611D814FFB74FA81E8 /* Pods-skillup_test_6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6.release.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6/Pods-skillup_test_6.release.xcconfig"; sourceTree = "<group>"; };
+		53CBFF0AAC574ED7235FFD0A /* Pods_skillup_test_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillup_test_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A367F5876E81FA2E6A43F7 /* Pods-skillup_test_6Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6Tests/Pods-skillup_test_6Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9330276624740A6F68384775 /* Pods_skillup_test_6Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillup_test_6Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1D821F7E3F8C83E7240BF0 /* Pods-skillup_test_6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6/Pods-skillup_test_6.debug.xcconfig"; sourceTree = "<group>"; };
 		B69C2E791ED90655009560CD /* skillup_test_6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skillup_test_6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69C2E7C1ED90655009560CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B69C2E7E1ED90655009560CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B69C2E811ED90655009560CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B69C2E831ED90655009560CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69C2E861ED90655009560CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B69C2E881ED90655009560CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B69C2E8D1ED90655009560CD /* skillup_test_6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skillup_test_6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B69C2E911ED90655009560CD /* skillup_test_6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillup_test_6Tests.swift; sourceTree = "<group>"; };
 		B69C2E931ED90655009560CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C2D5D21ED908A90037A480 /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
+		B6C2D5D41ED908C50037A480 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B6C2D5D61ED909640037A480 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		B6C2D5DB1ED90A080037A480 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B6C2D5DE1ED90A2F0037A480 /* MemoDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDto.swift; sourceTree = "<group>"; };
+		B6C2D5E01ED90AA70037A480 /* MemoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDao.swift; sourceTree = "<group>"; };
+		B6C2D5E31ED90B810037A480 /* MocRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MocRealm.swift; sourceTree = "<group>"; };
+		B6C2D5E91ED90C0C0037A480 /* MemoDtoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDtoTests.swift; sourceTree = "<group>"; };
+		B6C2D5EB1ED90CB60037A480 /* MemoDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDaoTests.swift; sourceTree = "<group>"; };
+		B6C2D5F01ED90EBB0037A480 /* RegisterMemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterMemo.swift; sourceTree = "<group>"; };
+		B6C2D5F31ED90F900037A480 /* RegisterMemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterMemoTests.swift; sourceTree = "<group>"; };
+		B6C2D5F51ED9108D0037A480 /* MemoListCellItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListCellItem.swift; sourceTree = "<group>"; };
+		B6C2D5F71ED910FC0037A480 /* MemoListState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListState.swift; sourceTree = "<group>"; };
+		B6C2D5F91ED9118A0037A480 /* MemoListToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListToolbar.swift; sourceTree = "<group>"; };
+		B6C2D5FB1ED911BA0037A480 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B6C2D5FD1ED913240037A480 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		B6C2D6051ED913A90037A480 /* MemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
+		B6C2D60F1ED9146D0037A480 /* WriteMemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteMemoViewController.swift; sourceTree = "<group>"; };
+		B6C2D6111ED9148E0037A480 /* MemoListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoListViewController.storyboard; sourceTree = "<group>"; };
+		B6C2D6131ED914950037A480 /* WriteMemoViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WriteMemoViewController.storyboard; sourceTree = "<group>"; };
+		B6C2D6161ED917040037A480 /* MemoListTableViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListTableViewProvider.swift; sourceTree = "<group>"; };
+		B6C2D6191ED918AC0037A480 /* MemoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoListCell.xib; sourceTree = "<group>"; };
+		B6C2D61B1ED918BD0037A480 /* MemoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListCell.swift; sourceTree = "<group>"; };
+		B6C2D61E1ED91BF50037A480 /* MemoListCellItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListCellItemTests.swift; sourceTree = "<group>"; };
+		B6C2D6201ED91C260037A480 /* MemoListStateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListStateTests.swift; sourceTree = "<group>"; };
+		B6C2D6221ED91C420037A480 /* MemoListToolbarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListToolbarTests.swift; sourceTree = "<group>"; };
+		F3FA8D8FCF32A54338D196B3 /* Pods-skillup_test_6Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_6Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_6Tests/Pods-skillup_test_6Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2405786EC39761D0F4E30421 /* Pods_skillup_test_6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +105,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926247C667B000D70B0729A8 /* Pods_skillup_test_6Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A97CFF82DBA50CFE2CBA59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53CBFF0AAC574ED7235FFD0A /* Pods_skillup_test_6.framework */,
+				9330276624740A6F68384775 /* Pods_skillup_test_6Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06033C9AF505C7C530FD36D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D821F7E3F8C83E7240BF0 /* Pods-skillup_test_6.debug.xcconfig */,
+				5136E1611D814FFB74FA81E8 /* Pods-skillup_test_6.release.xcconfig */,
+				88A367F5876E81FA2E6A43F7 /* Pods-skillup_test_6Tests.debug.xcconfig */,
+				F3FA8D8FCF32A54338D196B3 /* Pods-skillup_test_6Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B69C2E701ED90655009560CD = {
 			isa = PBXGroup;
 			children = (
+				03A97CFF82DBA50CFE2CBA59 /* Frameworks */,
+				B06033C9AF505C7C530FD36D /* Pods */,
+				B69C2E7A1ED90655009560CD /* Products */,
 				B69C2E7B1ED90655009560CD /* skillup_test_6 */,
 				B69C2E901ED90655009560CD /* skillup_test_6Tests */,
-				B69C2E7A1ED90655009560CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +155,13 @@
 		B69C2E7B1ED90655009560CD /* skillup_test_6 */ = {
 			isa = PBXGroup;
 			children = (
-				B69C2E7C1ED90655009560CD /* AppDelegate.swift */,
-				B69C2E7E1ED90655009560CD /* ViewController.swift */,
-				B69C2E801ED90655009560CD /* Main.storyboard */,
-				B69C2E831ED90655009560CD /* Assets.xcassets */,
-				B69C2E851ED90655009560CD /* LaunchScreen.storyboard */,
-				B69C2E881ED90655009560CD /* Info.plist */,
+				B6C2D5CA1ED908200037A480 /* Controllers */,
+				B6C2D5CB1ED908270037A480 /* Extensions */,
+				B6C2D5CC1ED908390037A480 /* Helpers */,
+				B6C2D5CD1ED908450037A480 /* Models */,
+				B6C2D5CE1ED9084B0037A480 /* Others */,
+				B6C2D5CF1ED908530037A480 /* Utils */,
+				B6C2D5D01ED908580037A480 /* Views */,
 			);
 			path = skillup_test_6;
 			sourceTree = "<group>";
@@ -90,10 +169,216 @@
 		B69C2E901ED90655009560CD /* skillup_test_6Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B69C2E911ED90655009560CD /* skillup_test_6Tests.swift */,
+				B6C2D5E21ED90B720037A480 /* Moc */,
+				B6C2D5E51ED90BE00037A480 /* Models */,
 				B69C2E931ED90655009560CD /* Info.plist */,
 			);
 			path = skillup_test_6Tests;
+			sourceTree = "<group>";
+		};
+		B6C2D5CA1ED908200037A480 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D6241ED91CD40037A480 /* Startup */,
+				B6C2D5FF1ED913540037A480 /* MemoList */,
+				B6C2D60C1ED9143E0037A480 /* WriteMemo */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B6C2D5CB1ED908270037A480 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5D41ED908C50037A480 /* String.swift */,
+				B6C2D5D61ED909640037A480 /* UITextView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B6C2D5CC1ED908390037A480 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5D11ED908990037A480 /* Realm */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B6C2D5CD1ED908450037A480 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5D81ED909D30037A480 /* MemoList */,
+				B6C2D5D91ED909DA0037A480 /* Realm */,
+				B6C2D5DA1ED909EC0037A480 /* WriteMemo */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6C2D5CE1ED9084B0037A480 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B69C2E7C1ED90655009560CD /* AppDelegate.swift */,
+				B69C2E831ED90655009560CD /* Assets.xcassets */,
+				B69C2E881ED90655009560CD /* Info.plist */,
+				B6C2D5FB1ED911BA0037A480 /* Localizable.strings */,
+				B6C2D5FD1ED913240037A480 /* R.generated.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B6C2D5CF1ED908530037A480 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5DB1ED90A080037A480 /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B6C2D5D01ED908580037A480 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D6151ED916D40037A480 /* MemoList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6C2D5D11ED908990037A480 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5D21ED908A90037A480 /* RealmDaoHelper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B6C2D5D81ED909D30037A480 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5F51ED9108D0037A480 /* MemoListCellItem.swift */,
+				B6C2D5F71ED910FC0037A480 /* MemoListState.swift */,
+				B6C2D5F91ED9118A0037A480 /* MemoListToolbar.swift */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B6C2D5D91ED909DA0037A480 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5DD1ED90A200037A480 /* Memo */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B6C2D5DA1ED909EC0037A480 /* WriteMemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5F01ED90EBB0037A480 /* RegisterMemo.swift */,
+			);
+			path = WriteMemo;
+			sourceTree = "<group>";
+		};
+		B6C2D5DD1ED90A200037A480 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5E01ED90AA70037A480 /* MemoDao.swift */,
+				B6C2D5DE1ED90A2F0037A480 /* MemoDto.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		B6C2D5E21ED90B720037A480 /* Moc */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5E31ED90B810037A480 /* MocRealm.swift */,
+			);
+			path = Moc;
+			sourceTree = "<group>";
+		};
+		B6C2D5E51ED90BE00037A480 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D61D1ED91B950037A480 /* MemoList */,
+				B6C2D5E61ED90BF20037A480 /* Realm */,
+				B6C2D5F21ED90F7C0037A480 /* WriteMemo */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6C2D5E61ED90BF20037A480 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5E71ED90BF90037A480 /* Memo */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B6C2D5E71ED90BF90037A480 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5EB1ED90CB60037A480 /* MemoDaoTests.swift */,
+				B6C2D5E91ED90C0C0037A480 /* MemoDtoTests.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		B6C2D5F21ED90F7C0037A480 /* WriteMemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D5F31ED90F900037A480 /* RegisterMemoTests.swift */,
+			);
+			path = WriteMemo;
+			sourceTree = "<group>";
+		};
+		B6C2D5FF1ED913540037A480 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D6111ED9148E0037A480 /* MemoListViewController.storyboard */,
+				B6C2D6051ED913A90037A480 /* MemoListViewController.swift */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B6C2D60C1ED9143E0037A480 /* WriteMemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D6131ED914950037A480 /* WriteMemoViewController.storyboard */,
+				B6C2D60F1ED9146D0037A480 /* WriteMemoViewController.swift */,
+			);
+			path = WriteMemo;
+			sourceTree = "<group>";
+		};
+		B6C2D6151ED916D40037A480 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D6181ED918990037A480 /* Cell */,
+				B6C2D6161ED917040037A480 /* MemoListTableViewProvider.swift */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		B6C2D6181ED918990037A480 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D61B1ED918BD0037A480 /* MemoListCell.swift */,
+				B6C2D6191ED918AC0037A480 /* MemoListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B6C2D61D1ED91B950037A480 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2D61E1ED91BF50037A480 /* MemoListCellItemTests.swift */,
+				B6C2D6201ED91C260037A480 /* MemoListStateTests.swift */,
+				B6C2D6221ED91C420037A480 /* MemoListToolbarTests.swift */,
+			);
+			name = MemoList;
+			sourceTree = "<group>";
+		};
+		B6C2D6241ED91CD40037A480 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B69C2E851ED90655009560CD /* LaunchScreen.storyboard */,
+			);
+			name = Startup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +388,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B69C2E961ED90655009560CD /* Build configuration list for PBXNativeTarget "skillup_test_6" */;
 			buildPhases = (
+				B45D3DF3B19699CA41BB688E /* [CP] Check Pods Manifest.lock */,
+				B6C2D5ED1ED90D9C0037A480 /* R.swift */,
 				B69C2E751ED90655009560CD /* Sources */,
 				B69C2E761ED90655009560CD /* Frameworks */,
 				B69C2E771ED90655009560CD /* Resources */,
+				8B65E87A5E99034F2BF1BC45 /* [CP] Embed Pods Frameworks */,
+				B1E6D33E44284BC64B7A971A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +409,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B69C2E991ED90655009560CD /* Build configuration list for PBXNativeTarget "skillup_test_6Tests" */;
 			buildPhases = (
+				EC623C38541DDC5534652AFA /* [CP] Check Pods Manifest.lock */,
 				B69C2E891ED90655009560CD /* Sources */,
 				B69C2E8A1ED90655009560CD /* Frameworks */,
 				B69C2E8B1ED90655009560CD /* Resources */,
+				14BD0156CDE88E3197B80BFD /* [CP] Embed Pods Frameworks */,
+				C4CDE683302042E3414DDBB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,8 +474,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69C2E871ED90655009560CD /* LaunchScreen.storyboard in Resources */,
+				B6C2D6141ED914950037A480 /* WriteMemoViewController.storyboard in Resources */,
+				B6C2D5FC1ED911BA0037A480 /* Localizable.strings in Resources */,
+				B6C2D61A1ED918AC0037A480 /* MemoListCell.xib in Resources */,
 				B69C2E841ED90655009560CD /* Assets.xcassets in Resources */,
-				B69C2E821ED90655009560CD /* Main.storyboard in Resources */,
+				B6C2D6121ED9148E0037A480 /* MemoListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +491,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14BD0156CDE88E3197B80BFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6Tests/Pods-skillup_test_6Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B65E87A5E99034F2BF1BC45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6/Pods-skillup_test_6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E6D33E44284BC64B7A971A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6/Pods-skillup_test_6-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B45D3DF3B19699CA41BB688E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C2D5ED1ED90D9C0037A480 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/$PRODUCT_NAME/Others\"";
+		};
+		C4CDE683302042E3414DDBB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_6Tests/Pods-skillup_test_6Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC623C38541DDC5534652AFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B69C2E751ED90655009560CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B69C2E7F1ED90655009560CD /* ViewController.swift in Sources */,
+				B6C2D5F61ED9108D0037A480 /* MemoListCellItem.swift in Sources */,
+				B6C2D5FA1ED9118A0037A480 /* MemoListToolbar.swift in Sources */,
+				B6C2D6171ED917040037A480 /* MemoListTableViewProvider.swift in Sources */,
+				B6C2D5DC1ED90A080037A480 /* Logger.swift in Sources */,
+				B6C2D5E11ED90AA70037A480 /* MemoDao.swift in Sources */,
+				B6C2D5F81ED910FC0037A480 /* MemoListState.swift in Sources */,
+				B6C2D5FE1ED913240037A480 /* R.generated.swift in Sources */,
 				B69C2E7D1ED90655009560CD /* AppDelegate.swift in Sources */,
+				B6C2D5D71ED909640037A480 /* UITextView.swift in Sources */,
+				B6C2D5DF1ED90A2F0037A480 /* MemoDto.swift in Sources */,
+				B6C2D6101ED9146D0037A480 /* WriteMemoViewController.swift in Sources */,
+				B6C2D5D51ED908C50037A480 /* String.swift in Sources */,
+				B6C2D5D31ED908A90037A480 /* RealmDaoHelper.swift in Sources */,
+				B6C2D6071ED913A90037A480 /* MemoListViewController.swift in Sources */,
+				B6C2D5F11ED90EBB0037A480 /* RegisterMemo.swift in Sources */,
+				B6C2D61C1ED918BD0037A480 /* MemoListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +626,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B69C2E921ED90655009560CD /* skillup_test_6Tests.swift in Sources */,
+				B6C2D5F41ED90F900037A480 /* RegisterMemoTests.swift in Sources */,
+				B6C2D6211ED91C260037A480 /* MemoListStateTests.swift in Sources */,
+				B6C2D61F1ED91BF50037A480 /* MemoListCellItemTests.swift in Sources */,
+				B6C2D5EA1ED90C0C0037A480 /* MemoDtoTests.swift in Sources */,
+				B6C2D5E41ED90B810037A480 /* MocRealm.swift in Sources */,
+				B6C2D5EC1ED90CB60037A480 /* MemoDaoTests.swift in Sources */,
+				B6C2D6231ED91C420037A480 /* MemoListToolbarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +647,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B69C2E801ED90655009560CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B69C2E811ED90655009560CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B69C2E851ED90655009560CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B69C2E861ED90655009560CD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../.;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,10 +756,12 @@
 		};
 		B69C2E971ED90655009560CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1D821F7E3F8C83E7240BF0 /* Pods-skillup_test_6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = skillup_test_6/Info.plist;
+				INFOPLIST_FILE = skillup_test_6/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.skillup-test-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,10 +771,12 @@
 		};
 		B69C2E981ED90655009560CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5136E1611D814FFB74FA81E8 /* Pods-skillup_test_6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = skillup_test_6/Info.plist;
+				INFOPLIST_FILE = skillup_test_6/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.skillup-test-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +786,7 @@
 		};
 		B69C2E9A1ED90655009560CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A367F5876E81FA2E6A43F7 /* Pods-skillup_test_6Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +802,7 @@
 		};
 		B69C2E9B1ED90655009560CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FA8D8FCF32A54338D196B3 /* Pods-skillup_test_6Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +835,7 @@
 				B69C2E981ED90655009560CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B69C2E991ED90655009560CD /* Build configuration list for PBXNativeTarget "skillup_test_6Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +844,7 @@
 				B69C2E9B1ED90655009560CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

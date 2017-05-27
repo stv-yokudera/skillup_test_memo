@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  skillup_test_6
+
+  Created by OkuderaYuki on 2017/05/27.
+  Copyright © 2017年 YukiOkudera. All rights reserved.
+*/
+
+// MARK: - MemoListViewController
+"memo" = "メモ";
+"noMemos" = "メモなし";
+"memosCount" = "%d件のメモ";
+"addMemo" = "メモ追加";
+"deleteAll" = "すべて削除";
+"cancel" = "キャンセル";

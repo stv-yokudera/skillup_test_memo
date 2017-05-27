@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7DJ-Uj-wPL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="kt6-Ft-VPn">
+            <objects>
+                <navigationController id="7DJ-Uj-wPL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="Htj-ZL-gED">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xFi-ax-v1a" kind="relationship" relationship="rootViewController" id="ulz-GG-cxP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TCs-cW-L87" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1699" y="-236"/>
+        </scene>
+        <!--Memo List View Controller-->
+        <scene sceneID="vgP-eq-u2q">
+            <objects>
+                <viewController id="xFi-ax-v1a" customClass="MemoListViewController" customModule="skillup_test_6" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S3e-Kd-RxF"/>
+                        <viewControllerLayoutGuide type="bottom" id="ADf-dF-O4f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0n2-k3-REd">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85Z-dH-Ijo">
+                                <rect key="frame" x="0.0" y="559" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="メモ追加" id="bHE-D7-Pw7">
+                                        <connections>
+                                            <action selector="didTapLeftToolbarButton:" destination="xFi-ax-v1a" id="VaX-QH-Uye"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ZJv-E0-CVX"/>
+                                    <barButtonItem title="メモなし" id="cNK-rE-Igs"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="oA1-qd-OvO"/>
+                                </items>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pbt-r7-gcL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="85Z-dH-Ijo" firstAttribute="leading" secondItem="0n2-k3-REd" secondAttribute="leading" id="FMH-jZ-Ulg"/>
+                            <constraint firstItem="85Z-dH-Ijo" firstAttribute="top" secondItem="Pbt-r7-gcL" secondAttribute="bottom" id="J0u-ti-eId"/>
+                            <constraint firstAttribute="trailing" secondItem="85Z-dH-Ijo" secondAttribute="trailing" id="S87-XG-GOS"/>
+                            <constraint firstAttribute="trailing" secondItem="Pbt-r7-gcL" secondAttribute="trailing" id="cTP-yT-y7A"/>
+                            <constraint firstItem="85Z-dH-Ijo" firstAttribute="top" secondItem="Pbt-r7-gcL" secondAttribute="bottom" id="rYV-Fb-TJb"/>
+                            <constraint firstItem="Pbt-r7-gcL" firstAttribute="leading" secondItem="0n2-k3-REd" secondAttribute="leading" id="uwb-6x-Rdc"/>
+                            <constraint firstItem="ADf-dF-O4f" firstAttribute="top" secondItem="85Z-dH-Ijo" secondAttribute="bottom" id="wqv-9S-N7e"/>
+                            <constraint firstItem="Pbt-r7-gcL" firstAttribute="top" secondItem="S3e-Kd-RxF" secondAttribute="bottom" id="zam-oM-Xlw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CEf-qA-DHB"/>
+                    <connections>
+                        <outlet property="leftToolbarButton" destination="bHE-D7-Pw7" id="OHW-sK-cet"/>
+                        <outlet property="rightToolbarButton" destination="cNK-rE-Igs" id="zdO-Pg-bub"/>
+                        <outlet property="tableView" destination="Pbt-r7-gcL" id="sl5-wK-74y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DsK-fM-enh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-794.39999999999998" y="-236.13193403298354"/>
+        </scene>
+    </scenes>
+</document>
